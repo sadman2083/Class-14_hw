@@ -54,7 +54,7 @@ line-height: 180%; /* 36px */
 display: inline-block;
 transition: 0.3s;
 }
-.btn:hover{
+.btn a:hover{
     color: #FFCC00;
     background-color: #001C30;
 }
