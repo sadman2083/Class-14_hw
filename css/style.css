@@ -54,9 +54,9 @@ line-height: 180%; /* 36px */
 display: inline-block;
 transition: 0.3s;
 }
-.btn a:hover{
+.btn:hover{
     color: #FFCC00;
-    background-color: #001C30;
+    background-color: #000000;
 }
 
 .btn.outline{
@@ -70,7 +70,7 @@ transition: 0.3s;
 
 }
 .btn.outline:hover{
-    background-color: #001C30;
+    background-color: #000000;
     color: #FFCC00;
 }
 
