@@ -53,14 +53,23 @@ font-weight: 600;
 line-height: 180%; /* 36px */
 display: inline-block;
 }
+.btn:hover{
+    color: var(--primaryColor);
+    background-color: #001C30;
+}
 
 .btn.outline{
     background-color: transparent;
     border: 1px solid #000;
     color: var(--secondaryColor);
     font-weight: 500;
+    padding: 14px 43px;
 
 
+}
+.btn.outline:hover{
+    background-color: #001C30;
+    color: var(--primaryColor);
 }
 
 
@@ -176,14 +185,14 @@ font-weight: 400;
 
 
 #banner .banner_text a{
-    margin-right: 40px;
+    margin-right: 20px;
 }
 #banner i{
     font-size: 32px;
     margin-left: 10px;
 }
 #banner .downl i {
-    font-size: 20px;
+    font-size: 25px;
 }
 #banner .lor {
     margin: 25px 0;
