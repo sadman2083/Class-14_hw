@@ -55,8 +55,8 @@ display: inline-block;
 transition: 0.3s;
 }
 .btn:hover{
-    color: #FFCC00;
     background-color: #000000;
+    color: #FFCC00;
 }
 
 .btn.outline{
